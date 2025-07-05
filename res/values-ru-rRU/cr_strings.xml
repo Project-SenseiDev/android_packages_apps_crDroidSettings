@@ -1201,6 +1201,9 @@
 	<!-- Compact QS Media Player-->
     <string name="qs_compact_media_player_mode_title">Компактный медиаплеер QS</string>
     <string name="qs_compact_media_player_mode_summary">Включите компактный режим для медиаплеера QuickSettings (перезапустите SystemUI)</string>
+	<!-- QuickSettings Refactor -->
+    <string name="qs_refactor_title">Включить обновленную версию QS A16</string>
+    <string name="qs_refactor_summary">Некоторые функции не будут работать в обновленной версии QS</string>
     <!-- Heads-up -->
     <string name="compact_heads_up_notifications_enabled_title">Компактные уведомления</string>
     <string name="compact_heads_up_notifications_enabled_summary">Отображать всплывающие уведомления в компактном виде</string>
