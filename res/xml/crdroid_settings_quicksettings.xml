@@ -123,12 +123,20 @@
             android:summary="@string/qs_bt_show_dialog_summary"
             android:defaultValue="true" />
 			
-		<!-- QS Media Player  -->
+	<!-- QS Media Player  -->
         <com.crdroid.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_compact_media_player_mode"
+	    android:icon="@drawable/ic_music_note"
             android:title="@string/qs_compact_media_player_mode_title"
             android:summary="@string/qs_compact_media_player_mode_summary"
             android:defaultValue="false"  />
+			
+	<com.crdroid.settings.preferences.SecureSettingSwitchPreference
+            android:key="qs_refactor_enabled"
+	    android:icon="@drawable/ic_message_text_outline"
+            android:title="@string/qs_refactor_title"
+            android:summary="@string/qs_refactor_summary"
+            android:defaultValue="false" />
 
     </PreferenceCategory>
 
@@ -170,12 +178,6 @@
     <PreferenceCategory
         android:key="qs_layout_category"
         android:title="@string/qs_layout_category_title">
-		
-		<com.crdroid.settings.preferences.SecureSettingSwitchPreference
-            android:key="qs_refactor_enabled"
-            android:title="@string/qs_refactor_title"
-            android:summary="@string/qs_refactor_summary"
-            android:defaultValue="false" />
 
         <ListPreference
             android:key="qs_tile_ui_style"
